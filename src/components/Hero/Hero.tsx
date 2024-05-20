@@ -36,13 +36,13 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <div className="social-media">
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/codevinayak"
               target="_blank"
               rel="noreferrer"
             >
               <img src={linkedin} alt="Linkedin" />
-            </a>
+            </a> */}
             <a
               href="https://github.com/DevelopmentGhost123/My_Portfolio"
               target="_blank"
@@ -50,7 +50,7 @@ export function Hero() {
             >
               <img src={githubIcon} alt="GitHub" />
             </a>
-            <a
+            {/* <a
               href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
               target="_blank"
               rel="noreferrer"
@@ -59,7 +59,7 @@ export function Hero() {
             </a>
             <a href="https://t.me/CodeVinayak" target="_blank" rel="noreferrer">
               <img src={telegram} alt="telegram" />
-            </a>
+            </a> */}
           </div>
         </ScrollAnimation>
       </div>

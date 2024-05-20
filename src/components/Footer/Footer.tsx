@@ -19,7 +19,7 @@ export function Footer() {
           <span>❤️</span>
         </p>
       </div>
-      <div className="social-media">
+      {/* <div className="social-media">
         <a
           href="https://www.linkedin.com/in/codevinayak"
           target="_blank"
@@ -51,7 +51,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-      </div>
+      </div> */}
     </Container>
   );
 }
