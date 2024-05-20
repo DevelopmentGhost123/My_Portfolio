@@ -46,13 +46,19 @@ export const Container = styled.section`
         }
       }
 
+      h1 {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
       h3 {
+        margin-top: 2rem;
         margin-bottom: 2rem;
       }
 
       p {
         letter-spacing: 0.12rem;
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
         a {
           color: #ffff;
           border-bottom: 1px solid var(--green);

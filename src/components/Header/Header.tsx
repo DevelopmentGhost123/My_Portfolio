@@ -2,7 +2,7 @@ import { Container } from "./style";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-// import Resume from "../../assets/Vinayak_Kumar_Singh_Resume.pdf";
+import Resume from "../../assets/Benjamin_resume.pdf";
 
 export function Header() {
   const [isActive, setActive] = useState(false);
@@ -18,8 +18,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Jeff"}</span>
-          <span>{" Warder/>"}</span>
+          <span>{"<Benjamin"}</span>
+          <span>{" Franklin/>"}</span>
         </HashLink>
         <input
           onChange={toggleTheme}
@@ -42,9 +42,9 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          {/* <a href={Resume} download className="button">
+          <a href={Resume} download className="button">
             Resume
-          </a> */}
+          </a>
         </nav>
         <div
           aria-expanded={isActive ? "true" : "false"}

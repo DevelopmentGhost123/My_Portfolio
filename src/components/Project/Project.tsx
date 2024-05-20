@@ -26,15 +26,15 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
               <div className="project-links">
-                <a
-                  href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                {/* <a
+                  href="https://github.com/DevelopmentGhost123/My_Portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
-                </a>
+                </a> */}
                 <a
-                  href="https://vote.vinayaksingh.com"
+                  href="https://devicecommerce.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -43,23 +43,36 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
+              <h1>Device Commerce</h1>
               <p>
                 {" "}
-                Developed a serverless voting app using React, AWS Lambda, API
-                Gateway, and DynamoDB, enabling users to view programming
-                languages, cast votes, and access details through an interactive
-                UI, leveraging serverless architecture for scalability and
-                cost-efficiency.{" "}
+                Device Commerce is an integrated business management platform
+                for the wireless device industry. This software is built from
+                the ground up, based on market needs, to help retailers scale
+                their operations, increase profitability, and align their
+                marketing efforts.{" "}
               </p>
+              <h3>What I worked:</h3>
+              <p>Skills: React, Mobx, Next, i18, Scss, CDN,</p>
+              <p>LCP/CLS, Framer-motion, Material-UI,</p>
+              <p>- ADP-Frontend for the customer can book-</p>
+              <p>appointment/quote his device(phone, tablet,</p>
+              <p>laptop)'s repair.</p>
+              <p>- ADP-Dashboard to manage the frontend's</p>
+              <p>theme, data(text, image), visibility(toggling)</p>
+              <p>- Feature toggling for the data visibility</p>
+              <p>- Data management</p>
+              <p>- DeviceCommerce Website with several</p>
+              <p>animation</p>
+              <p>effect(https://devicecommerce.com/)</p>
             </div>
-            <footer>
+            {/* <footer>
               {" "}
               <ul className="tech-list">
                 {" "}
                 <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li>{" "}
               </ul>{" "}
-            </footer>
+            </footer> */}
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
@@ -80,38 +93,45 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
               <div className="project-links">
-                <a
-                  href="https://github.com/CodeVinayak/AI-Chatbot-Assistant"
+                {/* <a
+                  href="https://github.com/DevelopmentGhost123/My_Portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />{" "}
-                </a>
-                <a
-                  href="https://ai-chatbot-t8fn.onrender.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                </a> */}
+                <a href="https://unit9.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
+              <h1>
+                Unit9 <span> </span>
+              </h1>
               <p>
-                Developed an interactive chatbot application using Streamlit,
-                OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text
-                extraction, enabling users to ask context-based questions on
-                uploaded PDFs and general queries.
+                Unit9 is one of the leading multidisciplinary production
+                companies working in different interactive areas: films, games,
+                virtual reality and digital technology. It operates globally
+                with offices in London, Los Angeles, New York, Florence, Berlin
+                and Poland.
               </p>
+              <h3>What I worked:</h3>
+              <p>Skills: React, CMS, Strapi, Framer-motion,</p>
+              <p>Styled-component, Animation, Node, Express,</p>
+              <p>- U9Group-website was built by me with</p>
+              <p>animations using framer-motion.</p>
+              <p>- Worked on Jira ticket with bitbucket</p>
+              <p>- Functional Component</p>
+              <p>- CMS with Strapi in React-App</p>
             </div>
-            <footer>
+            {/* <footer>
               <ul className="tech-list">
                 <li>Streamlit</li>
                 <li>PyPDF2</li>
                 <li>LangChain</li>
               </ul>
-            </footer>
+            </footer> */}
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
@@ -132,13 +152,13 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a
-                  href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis"
+                {/* <a
+                  href="https://github.com/DevelopmentGhost123/My_Portfolio"
                   target="\_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb"
                   target="\_blank"
@@ -186,13 +206,13 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a
-                  href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History"
+                {/* <a
+                  href="https://github.com/DevelopmentGhost123/My_Portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
-                </a>
+                </a> */}
                 <a
                   href="https://medibook.vinayaksingh.com"
                   target="_blank"
@@ -243,13 +263,13 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a
-                  href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation"
+                {/* <a
+                  href="https://github.com/DevelopmentGhost123/My_Portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
-                </a>
+                </a> */}
                 <a
                   href="https://youtu.be/NOm-3MynPLE"
                   target="_blank"

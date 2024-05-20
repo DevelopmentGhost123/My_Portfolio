@@ -19,7 +19,7 @@ export function Hero() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Jeff Warder</h1>
+          <h1>Benjamin Franklin</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer</h3>
@@ -44,7 +44,7 @@ export function Hero() {
               <img src={linkedin} alt="Linkedin" />
             </a>
             <a
-              href="https://github.com/CodeVinayak/"
+              href="https://github.com/DevelopmentGhost123/My_Portfolio"
               target="_blank"
               rel="noreferrer"
             >

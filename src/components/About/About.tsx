@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import JeffWarder from "../../assets/Jeff Warder.jpg";
+import Benjamin from "../../assets/BenjaminFranklin.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -17,15 +17,10 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h1>About me</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
-            Hi, there! I'm Jeff, a website with a passion for creating custom
-            online experiences for my clients. With a skill set including HTML,
-            CSS, JavaScript, and React, I have the tools to bring any website
-            vision to life.
-          </p>
+          <h3>Senior Full-Stack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeinleft"
@@ -104,7 +99,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={JeffWarder} alt="Jeff Warder" />
+          <img src={Benjamin} alt="Jeff Warder" />
         </ScrollAnimation>
       </div>
     </Container>
